@@ -37,12 +37,18 @@ h1 {
 
 /* Поля ввода */
 input {
+  width: 100%;              /* ← добавили */
+  box-sizing: border-box;   /* ← добавили */
   padding: 12px;
   border-radius: 10px;
   border: 2px solid #C97ED3;
   outline: none;
   font-size: 14px;
   transition: 0.3s;
+}
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 input:focus {
