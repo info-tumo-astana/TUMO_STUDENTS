@@ -127,6 +127,7 @@ input, button {
   input {
     padding: 10px;
     font-size: 14px;
+    height: 50px;
   }
 
   button {
