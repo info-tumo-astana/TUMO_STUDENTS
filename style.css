@@ -99,11 +99,20 @@ input, button {
   box-sizing: border-box;
 }
 
+
 /* Логотип */
 .logo {
   display: block;
   margin: 0 auto 15px auto;
   width: 100px;
+}
+.map-container {
+  margin-top:40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+iframe{
+  border-radius: 20px;
 }
 
 /* 📱 Адаптация под телефоны */
